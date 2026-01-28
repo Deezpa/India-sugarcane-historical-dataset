@@ -1,0 +1,7 @@
+name: Release Gate
+on: [push]
+jobs:
+  placeholder:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Release gate placeholder"
